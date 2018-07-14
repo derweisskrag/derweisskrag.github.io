@@ -1,0 +1,50 @@
+body{
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.wrapper{
+	margin: 0 auto;
+	height: 100%;
+	width: 700px;
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.image{
+	display: flex;
+	flex-direction: row;
+}
+
+.inner-picture-1{
+	background-image: url('../../images/cat.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	border-top-left-radius: 10px;
+
+
+	height: 400px;
+	width: 60%;
+
+}
+
+.inner-picture-2{
+	background-image: url('../../images/rabbit.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+	border-top-right-radius: 10px;
+
+	height: 400px;
+	width: 40%;
+
+	
+}
+
+
+.text{
+	text-align: center;
+	width: inherit;
+	height: 500px;
+}

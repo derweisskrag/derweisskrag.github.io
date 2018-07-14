@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a{
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	text-decoration: none;
+	color: black;
+
+}
+
+li:last child{
+	border-bottom: none;
+}
+
+li{
+	text-align: center;
+}
+
+.active{
+	background-color: green;
+}
+
+li a:hover:not(.active){
+	background-color: rgba(0, 0, 0, .8);
+	color: white;
+}
