@@ -1,5 +1,3 @@
-# This is TODO App created by Amplication!
+# Some old project to rebuild in terms of NEXT!
 
-## Purpose
-
-I want to see how Amplication is useful in combination with almighty NEXT
+## Waiting...
